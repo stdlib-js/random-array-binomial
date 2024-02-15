@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-binomial@esm/index.mjs';
+import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-binomial@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-binomial@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-binomial@v0.2.0-esm/index.mjs';
 ```
 
 #### binomial( len, n, p\[, options] )
@@ -343,7 +343,7 @@ var sz = random.byteLength;
 <script type="module">
 
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-binomial@esm/index.mjs';
+import binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-binomial@v0.2.0-esm/index.mjs';
 
 // Create a function for generating random arrays originating from the same state:
 var random = binomial.factory( 17, 0.5, {
